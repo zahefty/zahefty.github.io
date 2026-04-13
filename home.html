@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Zion Hefty - Math PhD Student</title>
+    <meta charset="UTF-8">
+
+    <!-- MathJax -->
+    <script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            }
+        };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+    <!-- BibTeX.js -->
+    <script src="https://cdn.jsdelivr.net/gh/pcooksey/bibtex-js@master/src/bibtex_js.js"></script>
+
+    <!-- Styling -->
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f5f5f5;
+            color: #222;
+        }
+
+        a { color: #0645ad; }
+
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: 20px auto;
+            background: white;
+            border: 1px solid #ccc;
+        }
+
+        .header {
+            background: #dfe3ff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .header-inner {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .headshot {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 2px solid #999;
+            background: #fff;
+        }
+
+        .header-text {
+            text-align: left;
+        }
+
+        .layout {
+            display: table;
+            width: 100%;
+        }
+
+        .sidebar {
+            display: table-cell;
+            width: 25%;
+            background: #f0f0f0;
+            padding: 15px;
+            vertical-align: top;
+        }
+
+        .content {
+            display: table-cell;
+            width: 75%;
+            padding: 20px;
+            vertical-align: top;
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid #ccc;
+            margin: 25px 0;
+        }
+
+        .footer {
+            background: #dfe3ff;
+            text-align: center;
+            padding: 10px;
+            font-size: 0.9em;
+        }
+
+        /* BibTeX styling */
+        .bibtexentry {
+            margin-bottom: 10px;
+        }
+
+        .title {
+            font-weight: bold;
+        }
+
+        .author {
+            font-style: italic;
+        }
+
+        .year {
+            color: #555;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="header">
+        <div class="header-inner">
+        
+            <!-- Headshot -->
+            <img src="image.jpg" alt="Headshot of Zion Hefty" class="headshot">
+
+            <!-- Text -->
+            <div class="header-text">
+                <h1>Zion Hefty</h1>
+                <h3>PhD Student in Mathematics</h3>
+                <p>University of Denver</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="layout">
+
+        <div class="sidebar">
+            <b>Navigation</b>
+            <ul>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#teaching">Teaching</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="content">
+
+            <h2 id="research">Research</h2>
+            <p>My research interests lie mostly in extremal graph theory, with an emphasis on probabilistic methods. A lot of my research has been in the area of word-representable graphs, though recently I have branched out to Ramsey numbers and symmetries of graphs as well.</p>
+
+            <hr>
+
+            <h2 id="publications">Publications</h2>
+                <ul>
+                    <li><i>Improving $R(3,k)$ in just two bites</i>, with P. Horn, D. King, and F. Pfender; preprint. URL: https://arxiv.org/abs/2510.19718</li>
+                    <li><i>On Edge-Resilience and Subdivision-Resilience of Non-Word-Representable Graphs</i>; with E. Dombi, H. Hameed, P. Horn, S. Kitaev, and A. Pyatkin; submitted.</li>
+                    <li><i>Word-representation numbers of graphs: Bottlenecks and bounds</i>, with P. Horn, C. Muir, and A. Owens; submitted.</li>
+                    <li><i>k-11-representations of graphs, revisited</i>, with P. Horn and C. Muir; Proceedings of the Edinburgh Mathematical Society (2025), 1-15.</li>
+                    <li><i>Word-Representable Graphs: Orientations, Posets, and Bounds</i>, with P. Horn, C. Muir, and A. Owens; Electron. J. Combin. 31 (2024), no. 4, Paper No. 4.2, 26 pp.</li>
+                    <li><i>The Frobenius problem over number fields with a real embedding</i>, with A. Feiner; Semigroup Forum 108 (2024), no. 1, 73–100.</li>
+                </ul>
+
+            <hr>
+
+            <h2 id="teaching">Teaching</h2>
+            <p>I have TA'd several lower and upper division courses at DU, including</p>
+            <ul>
+                <li>Algebra Workshop for Calculus for Business and Social Sciences, Calculus for Business and Social Sciences, Foundations Seminar, Calculus I, Calculus II, Calculus of Several Variables, Differential Equations, Elements of Linear Algebra, Combinatorics, Graph Theory</li>
+            </ul>
+
+            <hr>
+
+            <h2 id="contact">Contact</h2>
+            <p>Email: zion.hefty [at] du.edu</p>
+
+        </div>
+    </div>
+
+    <div class="footer">
+        Last updated: April 2026
+    </div>
+
+</div>
+
+</body>
+</html>
